@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/name_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter your Name" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/message_queryus"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:hint="Message"
+                    android:singleLine="true"
+                    app:met_baseColor="@color/ColorPrimary"
+                    app:met_clearButton="true"
+                    app:met_floatingLabel="highlight"
+                    app:met_maxCharacters="20"
+                    app:met_primaryColor="?colorAccent" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Course"
+                        android:textColor="#000"
+                        android:textSize="20sp" />
+
+                    <Spinner
+                        android:id="@+id/courseCategories"
+                        style="@style/spinner_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Year"
+                        android:textColor="#000"
+                        android:textSize="20sp" />
+
+                    <Spinner
+                        android:id="@+id/year"
+                        style="@style/spinner_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="College"
+                        android:textColor="#000"
+                        android:textSize="20sp" />
+
+                    <Spinner
+                        android:id="@+id/college"
+                        style="@style/spinner_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/otherCollege"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="visible">
+
+                    <EditText
+                        android:id="@+id/otherCollegeText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Please Specify Your College Name"
+                        android:textColor="#000" />
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/studentid_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Student Id" />
+
+                <EditText
+                    android:id="@+id/mobilenumberet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Mobile Number"
+                    android:inputType="number"
+                    android:maxLength="10" />
+
+                <EditText
+                    android:id="@+id/emailidet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Your Email Id" />
+
+
+                <CheckBox
+                    android:id="@+id/accomodation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Need Accommodation"
+                    android:textColor="#111"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/SubmitSingleRegistration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#440C0C"
+                android:text="Submit" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+
+</RelativeLayout>

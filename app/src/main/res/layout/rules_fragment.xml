@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Rules and Regulations"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/ColorPrimary"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/textView2"
+            android:background="@color/ColorPrimary" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="1. The competition will be open to all bonafide students of Engineering and Management Colleges
+\n2.  Maximum of 3 and minimum of 2 authors per paper.
+\n3.  Extended Abstract of 500 words maximum to be sent by laid down date. Based on the abstract, an   experts committee will select the papers for inclusion in the final presentation.
+\n4.  For presentation, a time slot of 7 minutes + 3 minutes (for Q &amp; A) will be given to each team.
+\n5.  A soft copy of the final paper is to be sent before the       designated date.
+\n6.  The paper to be typed in single space, double column format, using Times New Roman font &amp; font-size 12. Maximum number of pages to be 10 and the page should have no numbers. A margin of 1’’ all around to be left.
+\n7.  First page to include Title, Name(s) of authors, their college name, telephone numbers as well as email addresses. This information to be included with extended abstract also."
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+</ScrollView>

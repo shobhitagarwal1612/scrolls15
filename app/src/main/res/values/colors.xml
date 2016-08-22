@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green">#4499CC00</color>
+    <color name="darkgreen">#FF669900</color>
+    <color name="symptom_color_selected">#003366</color>
+    <color name="reaction_color_selected">#003366</color>
+    <color name="static_text_color">#003366</color>
+    <color name="journal_entry_listitem_text_color">#003366</color>
+    <color name="note_text_disabled">#333333</color>
+    <color name="blue">#0000FF</color>
+    <color name="navy">#6699FF</color>
+    <color name="sky">#0099CC</color>
+    <color name="lightgray">#e7e7e7</color>
+    <color name="lightgray02">#bfbfbf</color>
+    <color name="dark">#000015</color>
+    <color name="lightgreen">#336666</color>
+    <color name="orrange">#e33d1b</color>
+    <color name="darkorrange">#cc2303</color>
+    <color name="theme_color">#3F51B5</color>
+    <color name="button_color">#F7996E</color>
+    <color name="ColorPrimary">#26a69a</color>
+    <color name="ColorPrimaryDark">#009688</color>
+    <color name="button_colorsecond">#FF6C60</color>
+    <color name="card_background">#fefefe</color>
+    <color name="primary_dark">#0097A7</color>
+    <color name="primary_light">#B2EBF2</color>
+
+</resources>
